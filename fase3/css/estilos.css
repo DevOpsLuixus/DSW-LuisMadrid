@@ -1,3 +1,8 @@
 * {
     background-color: #ffff;
 }
+
+header{
+    display: flex;
+    padding-top: 10px;
+}
