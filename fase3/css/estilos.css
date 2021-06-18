@@ -1,8 +1,30 @@
 * {
-    background-color: #ffff;
+    background-color: #fcfdfc;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
     display: flex;
     padding-top: 10px;
+
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+span {
+    font-size: 27px;
+}
+
+
+
+img{
+    padding: 5px;
+}
+
+nav .ul{
+    display:flex;
 }
