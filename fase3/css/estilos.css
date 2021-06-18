@@ -60,10 +60,35 @@ img{
 }
 
 .navegacionPrincipal {
-    background-color: var(--azulprofundo);
+    display: flex;
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 5px;
+    background: var(--azulprofundo)
+
+}
+
+.navegacionPrincipal li {
+    width: 100%;
+    text-align: center;
+    background: var(--azulprofundo);
+}
+
+.navegacionPrincipal a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    background: var(--azulprofundo);
+    height: 2rem;
     text-decoration: none;
 }
+
+
 
 .contenedor{
     display: grid;
@@ -88,9 +113,20 @@ aside h4{
 }
 
 
+
+
+
+
+
 footer{
     text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+footer p{
     background-color: var(--naranja);
-    
-    padding: 10px;
+    text-align: center;
+    padding: 1px; 
+    border: 1px 1px 2px #ccc;
 }
