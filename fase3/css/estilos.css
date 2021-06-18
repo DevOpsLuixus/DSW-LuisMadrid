@@ -1,5 +1,22 @@
+:root { /* definimos las variables de colores principales */
+    --azulprofundo: #005883;
+    --amarillooscuro: #f0b429;
+    --naranja: #f47920;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px; /* 1rem = 10px */
+}
+
+
+
+
 * {
-    background-color: #fcfdfc;
+    background-color: #ffffff;
     padding: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -10,19 +27,21 @@ header{
 
 }
 
-h1{
+.titulo{
     text-align: center;
     padding: 15px;
 }
 
-span {
-    font-size: 27px;
+.titulo span {
+    font-size: 3rem;
 }
 
 
 
 img{
-    padding: 5px;
+    display: block;
+    max-width: 100%;
+    
 }
 
 nav .ul{
