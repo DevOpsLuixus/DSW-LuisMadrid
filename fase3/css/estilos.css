@@ -91,18 +91,23 @@ nav ul{
 .dropdown li {
     display: none;
     width: 200px;
+    text-align: center;
     
 }
 
 .navegacionPrincipal li:hover .dropdown li{
     display: block;
-    position: absolute;
-    padding: 8px;
-    position: absolute;
+    padding: 2px;
     z-index: 1;
+    
 }
 
+
+
+
 .navegacionPrincipal a:hover {
+    display: block;
+    
       
         
     
@@ -112,6 +117,7 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 
 aside {
     grid-column: 1/2;
@@ -136,8 +142,20 @@ aside iframe{
 }
 
 
+section {
+    grid-column: 2/5;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 2px gray;
+    background-color: white;
+}
 
-
+section h3{
+    padding-top: 2rem;
+    
+}
+.apa{
+    font-size: 12px;
+}
 
 footer{
     text-align: center;
