@@ -157,6 +157,20 @@ section h3{
     font-size: 12px;
 }
 
+td {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--azulprofundo);
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.campo{
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--azulprofundo);
+    text-shadow: 1px 1px 2px #ccc;
+}
+
 footer{
     text-align: center;
     color: white;
